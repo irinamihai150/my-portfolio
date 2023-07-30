@@ -5,7 +5,7 @@ function About() {
 	return (
 		<div className='flex m-8 bg-gray-200'>
 			<div className='flex-1'>
-				<p className='text-center text-2xl mt-20'>PORTFOLIO</p>
+				<p className='text-center text-xl mt-20'>PORTFOLIO</p>
 				<h1 className='text-8xl text-center font-semibold mt-6'>
 					IRINA
 					<br /> MIHAI

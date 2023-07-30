@@ -6,7 +6,11 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+				sans: [
+					"Edu SA Beginner",
+					"Montserrat",
+					...defaultTheme.fontFamily.sans,
+				],
 				body: ["Arial", "sans-serif"],
 			},
 		},
