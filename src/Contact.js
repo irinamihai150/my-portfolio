@@ -7,7 +7,7 @@ function Contact() {
 		<div className='py-8 mx-4 my-4'>
 			<div className='max-w-screen-2xl mx-auto ml-8'>
 				<h2 className='text-black text-6xl mb-20 mt-8 font-bold hover:text-red-500'>
-					Work with me
+					Let's Meet
 				</h2>
 				<div className='flex'>
 					<img

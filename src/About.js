@@ -14,9 +14,9 @@ function About() {
 					<p className=' hover:font-bold'>SOFTWARE DEVELOPER</p>
 					<a
 						href='mailto:irinamihai150@gmail.com'
-						className='pl-4 text-black hover:text-blue-500'
+						className='pl-4 text-black hover:text-red-500'
 					>
-						EMAIL ME
+						CONTACT ME
 					</a>
 				</div>
 			</div>

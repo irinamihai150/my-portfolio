@@ -15,7 +15,7 @@ function Aboutme() {
 					{/* <h2 className='text-black text-6xl font-bold'>Bio</h2> */}
 					<img
 						className='w-1/2 h-auto rounded-2xl ml-24'
-						src='https://media.licdn.com/dms/image/D4E03AQER7ZTX9sjUlA/profile-displayphoto-shrink_800_800/0/1690741760023?e=1696464000&v=beta&t=dAHp2wXeX5QNfW4fbHXtW8Vq4JAC7DffoTAZ0D-Yp88'
+						src='https://media.licdn.com/dms/image/D4E03AQEOIYDlOpH1-Q/profile-displayphoto-shrink_800_800/0/1690832517540?e=1696464000&v=beta&t=AsKGH_TZX0ILsLW08ZolgU9zxLdNeqjwHX6xDqwd7f0'
 						alt='girl'
 					/>
 				</div>
