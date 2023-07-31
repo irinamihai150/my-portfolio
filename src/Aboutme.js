@@ -5,7 +5,9 @@ function Aboutme() {
 	return (
 		<div className='max-w-screen-2xl mx-auto ml-8'>
 			<div className='flex flex-direction justify-between mb-10 mt-10'>
-				<h2 className='text-black text-6xl mb-20 mt-8 font-bold'>Bio</h2>
+				<h2 className='text-black text-6xl mb-20 mt-8 font-bold hover:text-red-500'>
+					Bio
+				</h2>
 			</div>
 			<div className='flex flex-wrap'>
 				{/* Column for Bio and Image */}
@@ -19,8 +21,10 @@ function Aboutme() {
 				</div>
 				{/* Column for Software Developer */}
 				<div className='w-full md:w-1/2'>
-					<p className='text-3xl mb-20 mt-8'>I am a software developer</p>
-					<p className='text-2xl'>
+					<p className='text-3xl mb-20 mt-8  hover:font-bold'>
+						I am a software developer
+					</p>
+					<p className='text-2xl  hover:font-bold'>
 						Passionate about technology and recent completion of an intensive
 						11-month software development training program, specializing in web
 						development. Particular interest lies in back-end and cloud

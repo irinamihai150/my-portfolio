@@ -1,17 +1,17 @@
-import React from "react"
-import "./index.css"
+import React from "react";
+import "./index.css";
 
 function About() {
-	return (
-		<div className='flex m-8 bg-gray-200'>
+  return (
+		<div className='flex flex-col sm:flex-row m-8 bg-gray-200'>
 			<div className='flex-1'>
-				<p className='text-center text-xl mt-20'>PORTFOLIO</p>
-				<h1 className='text-8xl text-center font-semibold mt-6'>
+				{/* <p className='text-center text-xl mt-20'>PORTFOLIO</p> */}
+				<h1 className='text-8xl text-center font-semibold mt-20 hover:text-red-500'>
 					IRINA
 					<br /> MIHAI
 				</h1>
-				<div className='flex justify-around mt-20'>
-					<p className='ml-4'>SOFTWARE DEVELOPER</p>
+				<div className='flex justify-center mt-20'>
+					<p className=' hover:font-bold'>SOFTWARE DEVELOPER</p>
 					<a
 						href='mailto:irinamihai150@gmail.com'
 						className='pl-4 text-black hover:text-blue-500'
@@ -31,4 +31,4 @@ function About() {
 	)
 }
 
-export default About
+export default About;

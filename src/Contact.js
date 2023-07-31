@@ -6,7 +6,7 @@ function Contact() {
 	return (
 		<div className='py-8 mx-4 my-4'>
 			<div className='max-w-screen-2xl mx-auto ml-8'>
-				<h2 className='text-black text-6xl mb-20 mt-8 font-bold'>
+				<h2 className='text-black text-6xl mb-20 mt-8 font-bold hover:text-red-500'>
 					Work with me
 				</h2>
 				<div className='flex'>
@@ -17,15 +17,15 @@ function Contact() {
 					/>
 					<div className=' w-1/2 flex justify-center ml-20'>
 						<div className='text-black text-xl mt-10'>
-							<p className='mb-2 font-bold'>Address</p>
+							<p className='mb-2 font-bold hover:text-red-500'>Address</p>
 							<p className='mb-2'>Birmingham</p>
 							<p className='mb-2'>United Kingdom</p>
-							<p className='mb-2 font-bold'>Email</p>
+							<p className='mb-2 font-bold hover:text-red-500'>Email</p>
 							<p className='mb-2'>Irinamihai150@gmail.com</p>
-							<p className='font-bold mt-6'>Find me</p>
+							<p className='font-bold mt-6 hover:text-red-500'>Find me</p>
 							<div className='flex mt-2'>
 								<a
-									className='ml-4'
+									className='ml-4 hover:text-red-500'
 									href='https://www.linkedin.com/in/irinamih/'
 									target='_blank'
 									rel='noopener noreferrer'
@@ -33,7 +33,7 @@ function Contact() {
 									<FaLinkedin size={32} />
 								</a>
 								<a
-									className='ml-2'
+									className='ml-2 hover:text-red-500'
 									href='https://github.com/irinamihai150'
 									target='_blank'
 									rel='noopener noreferrer'
