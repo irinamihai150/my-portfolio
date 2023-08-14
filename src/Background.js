@@ -2,7 +2,7 @@ import React from "react"
 
 function Background() {
 	return (
-		<div className='flex flex-row max-w-screen-2xl mx-auto ml-8 mt-20'>
+		<div className='flex flex-row max-w-screen-2xl mx-auto ml-8 mt-20 md:flex-row md:space-x-6'>
 			<div className='w-1/2'>
 				<p className='text-black text-6xl mb-20 mt-8 font-bold hover:text-red-500 pop-outin'>
 					Education
