@@ -3,7 +3,7 @@ import "./index.css"
 const Projects = () => {
 	return (
 		<div>
-			<h2 className='text-black text-6xl mb-20 mt-8 font-bold p-8 hover:text-red-500'>
+			<h2 className='text-black text-6xl mb-20 mt-8 font-bold p-8 hover:text-red-500 pop-outin'>
 				Projects
 			</h2>
 			<div className='max-w-screen-2xl ml-8 ml-8 grid grid-cols-3 gap-8'>
@@ -20,6 +20,15 @@ const Projects = () => {
 						src='https://images.unsplash.com/photo-1654931799020-ce7cf3f4a2c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=820&q=80'
 						alt=''
 					/>
+					<a
+						href='https://github.com/kawaMANMI/wm4_3_Final_Project'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						<button className='hover:bg-red-500 text-black center font-bold py-2 px-4 rounded mt-4'>
+							Visit Website
+						</button>
+					</a>
 				</div>
 				<div className='flex-grow flex flex-col items-center'>
 					<h3 className='text-2xl mb-4 font-bold'>Tv show</h3>

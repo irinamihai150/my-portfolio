@@ -5,7 +5,7 @@ function Aboutme() {
 	return (
 		<div className='max-w-screen-2xl mx-auto ml-8'>
 			<div className='flex flex-direction justify-between mb-10 mt-10'>
-				<h2 className='text-black text-6xl mb-20 mt-8 font-bold hover:text-red-500'>
+				<h2 className='text-black text-6xl mb-20 mt-8 font-bold hover:text-red-500 pop-outin'>
 					Bio
 				</h2>
 			</div>
@@ -14,8 +14,8 @@ function Aboutme() {
 				<div className='w-full md:w-1/2 flex items-center'>
 					{/* <h2 className='text-black text-6xl font-bold'>Bio</h2> */}
 					<img
-						className='w-1/2 h-auto rounded-2xl ml-24'
-						src='https://media.licdn.com/dms/image/D4E03AQEOIYDlOpH1-Q/profile-displayphoto-shrink_800_800/0/1690832517540?e=1696464000&v=beta&t=AsKGH_TZX0ILsLW08ZolgU9zxLdNeqjwHX6xDqwd7f0'
+						className='w-1/2 h-auto rounded-2xl ml-24 image'
+						src='https://media.licdn.com/dms/image/D4E03AQG2js_l3FqwEA/profile-displayphoto-shrink_800_800/0/1692045906187?e=1697673600&v=beta&t=VgEYctX6F9VJ9nyT46-txmqyerMoHBl_EW0cAR1J1Ls'
 						alt='girl'
 					/>
 				</div>

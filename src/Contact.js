@@ -1,14 +1,27 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import "./index.css"
-import { FaLinkedin, FaGithub } from "react-icons/fa"
+import { FaLinkedin, FaGithub, FaEnvelope, FaArrowUp } from "react-icons/fa"
 
 function Contact() {
+	const email = "irinamihai150@gmail.com"
+	const [currentYear, setCurrentYear] = useState(new Date().getFullYear())
+
+	useEffect(() => {
+		setCurrentYear(new Date().getFullYear())
+	}, [])
+	const scrollToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth",
+		})
+	}
 	return (
 		<div className='py-8 mx-4 my-4'>
 			<div className='max-w-screen-2xl mx-auto ml-8'>
-				<h2 className='text-black text-6xl mb-20 mt-8 font-bold hover:text-red-500'>
+				<h2 className='text-black text-6xl mb-20 mt-8 font-bold hover:text-red-500 wavy pop-outin'>
 					Let's Meet
 				</h2>
+
 				<div className='flex'>
 					<img
 						className='w-1/2 mr-8 rounded-lg'
@@ -21,7 +34,7 @@ function Contact() {
 							<p className='mb-2'>Birmingham</p>
 							<p className='mb-2'>United Kingdom</p>
 							<p className='mb-2 font-bold hover:text-red-500'>Email</p>
-							<p className='mb-2'>Irinamihai150@gmail.com</p>
+							<p className='mb-2 pop-outin'>Irinamihai150@gmail.com</p>
 							<p className='font-bold mt-6 hover:text-red-500'>Find me</p>
 							<div className='flex mt-2'>
 								<a
@@ -40,11 +53,23 @@ function Contact() {
 								>
 									<FaGithub size={32} />
 								</a>
+								<a
+									className='ml-2 hover:text-red-500'
+									href={`mailto:${email}`}
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									<FaEnvelope size={32} />
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<footer>
+				<p>&copy;{currentYear} Irina Mihai. All rights reserved.</p>
+				<FaArrowUp size={24} onClick={() => scrollToTop()} />
+			</footer>
 		</div>
 	)
 }

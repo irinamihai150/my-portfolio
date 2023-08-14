@@ -1,15 +1,16 @@
-import React from "react";
-import "./index.css";
+import React from "react"
+import "./index.css"
 
 function About() {
-  return (
+	return (
 		<div className='flex flex-col sm:flex-row m-8 bg-gray-200'>
 			<div className='flex-1'>
 				{/* <p className='text-center text-xl mt-20'>PORTFOLIO</p> */}
-				<h1 className='text-8xl text-center font-semibold mt-20 hover:text-red-500'>
+				<h1 className='text-8xl text-center font-semibold mt-20 hover:text-red-500 animate'>
 					IRINA
 					<br /> MIHAI
 				</h1>
+
 				<div className='flex justify-center mt-20'>
 					<p className=' hover:font-bold'>SOFTWARE DEVELOPER</p>
 					<a
@@ -31,4 +32,4 @@ function About() {
 	)
 }
 
-export default About;
+export default About
