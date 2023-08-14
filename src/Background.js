@@ -2,7 +2,7 @@ import React from "react"
 
 function Background() {
 	return (
-		<div className='flex flex-row max-w-screen-2xl mx-auto ml-8 mt-20 md:flex-row md:space-x-6'>
+		<div className='flex flex-row max-w-screen-2xl mx-auto ml-8 mt-20'>
 			<div className='w-1/2'>
 				<p className='text-black text-6xl mb-20 mt-8 font-bold hover:text-red-500 pop-outin'>
 					Education
@@ -28,7 +28,7 @@ function Background() {
 				</p>
 				<ul className='ml-4 space-y-4 text-2xl'>
 					<li className=' hover:font-bold'>
-						Front-end: HTML5, Javascript(ES5,ES6), React, CSS3, Bootstrap,
+						Front-end: HTML5, Javascript(ES5,ES6), React, CSS, Bootstrap,
 						Responsive Web Design, Tailwind.
 					</li>
 					<li className=' hover:font-bold'>
