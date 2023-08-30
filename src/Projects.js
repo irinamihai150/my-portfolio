@@ -34,9 +34,8 @@ const Projects = () => {
 					<h3 className='text-2xl mb-4 font-bold'>Tv show</h3>
 					<p className='text-xl mb-4 hover:bg-red-400 transition  hover:font-bold'>
 						This MVP (Minimum Viable Product) is a web application that offers
-						users the ability to watch TV shows, giving them the option to
-						browse  all available shows or a specific episode
-						of their choice. The application aims to provide an enjoyable and
+						to the users the ability to browse TV shows or a specific episode of
+						their choice. The application aims to provide an enjoyable and
 						seamless user experience for TV show enthusiasts.
 					</p>
 					<img
@@ -69,7 +68,7 @@ const Projects = () => {
 						alt='maps'
 					/>
 					<a
-						href='https://london-guide-react.netlify.app/'
+						href='https://github.com/irinamihai150/London-guide-react'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
