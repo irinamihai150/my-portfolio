@@ -35,7 +35,7 @@ const Projects = () => {
 					<p className='text-xl mb-4 hover:bg-red-400 transition  hover:font-bold'>
 						This MVP (Minimum Viable Product) is a web application that offers
 						users the ability to watch TV shows, giving them the option to
-						browse and stream either all available shows or a specific episode
+						browse  all available shows or a specific episode
 						of their choice. The application aims to provide an enjoyable and
 						seamless user experience for TV show enthusiasts.
 					</p>
