@@ -1,0 +1,57 @@
+/* intro */
+.custom-card {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	margin: 10px;
+}
+h2 {
+	font-size: 5em;
+}
+.technology-list {
+	list-style: none;
+	padding: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.technology-list li {
+	margin: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.technology-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 1.5em;
+	min-height: 1.5em;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	background-color: white;
+	color: purple;
+	margin-right: 10px;
+	font-size: 5em;
+	transition: transform 0.3s ease-in-out;
+}
+
+.technology-icon:hover {
+	transform: scale(1.1);
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 5px;
+	font-size: 1em;
+}
+.tick {
+	font-size: 1.5em;
+	margin-right: 5px;
+}

@@ -1,16 +1,16 @@
-import Contact from "./Contact"
-import About from "./About"
-import Aboutme from "./Aboutme"
-import Background from "./Background"
-import Projects from "./Projects"
+import Hero from "./Hero"
+import Introduction from "./Introduction"
+import Portfolio from "./Portfolio"
+import Contact from "./Contact2"
+import MyNavBar from "./MyNavbar"
 
 function App() {
 	return (
 		<div>
-			<About />
-			<Aboutme />
-			<Background />
-      <Projects/>
+			<MyNavBar />
+			<Hero />
+			<Introduction />
+			<Portfolio />
 			<Contact />
 		</div>
 	)
