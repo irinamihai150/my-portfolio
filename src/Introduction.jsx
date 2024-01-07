@@ -1,5 +1,5 @@
 import { Container, Row, Col, Card } from "react-bootstrap"
-import { useEffect } from "react"
+// import { useEffect } from "react"
 import {
 	FaDesktop,
 	FaServer,
